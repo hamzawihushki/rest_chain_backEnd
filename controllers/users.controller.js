@@ -1,6 +1,6 @@
 const asyncWrapper = require("../middlewares/asyncWrapper");
 const Users = require("../models/users.model");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const generateJWT = require("../utils/generateJWT");
 
